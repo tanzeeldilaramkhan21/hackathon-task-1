@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+
+
+        <div class="studentinfo">
+            <h1>Student Information</h1>
+            <form action="" method="get">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Your Full Name "><br>
+    
+                <label for="rollno">Roll Number:</label><br>
+                <input type="number" id="rollno" name="rollno" placeholder="Enter Your Roll Num "><br>
+    
+                <label for="batch">Batch/Section:</label><br>
+                <select id="batch" name="batch" required>
+                    <option value="">Select Batch/Section</option>
+                    <option value="A">WMA Batch A</option>
+                    <option value="B">WMA Batch B</option>
+                    <option value="C">WMA Batch C</option>
+                    <option value="D">WMA Batch D</option>
+                </select><br>
+    
+                <input onclick="goToQuiz()" type="submit" value="Submit">
+            </form>
+        </div>
+    
+        <script src="./script.js"></script>
+    
+</body>
+</html>
